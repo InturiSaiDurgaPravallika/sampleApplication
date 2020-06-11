@@ -1,0 +1,29 @@
+Started by user [8mha:////4GMoozOYiFLss9meVEDdHwO6IXUvLbq/gLytm5T6EcR9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZu/dLi1CL9xJTczDwAtSaNhMAAAAA=[0minturi sai durga pravallika
+Running as SYSTEM
+Building in workspace /home/roohinazk25/.jenkins/workspace/jenkinsmvc
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/InturiSaiDurgaPravallika/sampleApplication.git
+ > git init /home/roohinazk25/.jenkins/workspace/jenkinsmvc # timeout=10
+Fetching upstream changes from https://github.com/InturiSaiDurgaPravallika/sampleApplication.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/InturiSaiDurgaPravallika/sampleApplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/InturiSaiDurgaPravallika/sampleApplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/InturiSaiDurgaPravallika/sampleApplication.git # timeout=10
+Fetching upstream changes from https://github.com/InturiSaiDurgaPravallika/sampleApplication.git
+ > git fetch --tags --progress https://github.com/InturiSaiDurgaPravallika/sampleApplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 76a7d804a76bba78482c5bb570b888c3d4cb3422 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76a7d804a76bba78482c5bb570b888c3d4cb3422 # timeout=10
+Commit message: "this folder containes te files"
+First time build. Skipping changelog.
+[jenkinsmvc] $ /bin/sh -xe /tmp/jenkins1227969034189858181.sh
++ echo hello from jenkins
+hello from jenkins
+Finished: SUCCESS

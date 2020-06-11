@@ -1,0 +1,3 @@
+[filesystem "pravallika-guntur.us-central1-a.c.devops-275910.internal|Private Build|1.8.0_252|/dev/sda1"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 3732 microseconds
